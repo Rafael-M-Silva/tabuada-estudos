@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  background-color: #443f6e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1, footer{
+  text-align: center;
+  color: white;
+}
+.card{
+  width: 390px;
+  margin: auto;
+  background-color: rgba(240, 255, 255, 0.329);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: white 3px 5px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  border: rgb(255, 255, 255) 2px solid;
+}
+#res{
+  margin-top: 20px;
+  background:rgba(39, 35, 35, 0.281);
+  border-radius: 5px;
+  text-align: center;
+}
+.card input{
+  border: 2px rgb(255, 255, 255) solid;
+  border-radius: 4px;
+  background: rgba(238, 231, 231, 0.685);
+  margin-bottom: 20px;
+  font-weight: bold;
+  outline: 0;
+}
+#botao{
+  width: 100%;
+  padding: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#botao:hover{
+  background: #ffffff;
+  transition: 0.5s;
+  color: purple;
+  border: black 2px solid;
+}
+
+
+
+
